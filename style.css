@@ -1,1 +1,157 @@
-x
+/* General Reset */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Baby blue background */
+    color: #333;
+    padding: 0 10px;
+}
+
+/* Header */
+header {
+    background-color: #98fb98; /* Mint green */
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    background-color: #ffa500; /* Orange */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffdab9; /* Lighter orange for hover effect */
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffa500; /* Orange */
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.caption {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffa500; /* Orange button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff7f50; /* Coral */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #98fb98; /* Mint green */
+    color: #333;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffa500; /* Orange */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
