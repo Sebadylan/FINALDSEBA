@@ -4,7 +4,8 @@ body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     padding: 0;
     box-sizing: border-box;
 }
-font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+body{
+font-family: 'Courier New', 'Courier'; /* Typewriter font */
     color: #5a4a42; /* A warm brown color to complement the orange */
     background-color: #f0f8ff; /* Baby blue background */
     line-height: 1.6;
