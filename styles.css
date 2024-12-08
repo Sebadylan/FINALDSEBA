@@ -1,20 +1,23 @@
+/* General Reset */
 body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body and Global Styling */
 body {
     font-family: 'Courier New', Courier, monospace; /* Typewriter font */
-    color: #004466; /* Dark blue for text */
+    color: #00334d; /* Dark blue for text */
     background-color: #e6f7ff; /* Light blue background */
     line-height: 1.6;
     padding: 0 10px;
 }
 
+/* Header */
 header {
     background-color: #99ccff; /* Sky blue */
-    color: #00334d; /* Darker blue for contrast */
+    color: #002d40; /* Darker blue for contrast */
     text-align: center;
     padding: 20px 0;
 }
@@ -30,6 +33,7 @@ header p {
     margin-bottom: 0;
 }
 
+/* Navigation Bar */
 nav ul {
     list-style: none;
     display: flex;
@@ -50,9 +54,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #00b386; /* Pop of green for hover */
+    background-color: #f9c5d5; /* Pastel pink hover effect */
 }
 
+/* Main Content */
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -73,6 +78,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* Image Captions */
 .caption {
     font-style: italic;
     font-size: 0.9rem;
@@ -80,16 +86,17 @@ p {
     text-align: center;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #00b386; /* Pop of green */
-    color: white;
+    background-color: #f9c5d5; /* Pastel pink */
+    color: #663399; /* Lavender text color */
     margin-top: 20px;
 }
 
 footer a {
-    color: #ff6600; /* Orange for footer links */
+    color: #663399; /* Lavender for footer links */
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -98,8 +105,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Buttons and Forms */
 button {
-    background-color: #0066cc; /* Main blue */
+    background-color: #663399; /* Lavender button */
     color: white;
     border: none;
     padding: 10px 15px;
@@ -110,7 +118,7 @@ button {
 }
 
 button:hover {
-    background-color: #00b386; /* Green on hover */
+    background-color: #f9c5d5; /* Pastel pink on hover */
 }
 
 input, textarea {
@@ -122,6 +130,7 @@ input, textarea {
     margin-bottom: 15px;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -140,4 +149,5 @@ input, textarea {
         font-size: 1.5rem;
     }
 }
+
 
