@@ -1,21 +1,20 @@
-/* General Reset */
 body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-font-family: 'Courier New', 'Courier'; /* Typewriter font */
-    color: #5a4a42; /* A warm brown color to complement the orange */
-    background-color: #f0f8ff; /* Baby blue background */
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    color: #004466; /* Dark blue for text */
+    background-color: #e6f7ff; /* Light blue background */
     line-height: 1.6;
     padding: 0 10px;
 }
 
-/* Header */
 header {
-    background-color: #98fb98; /* Mint green */
-    color: #333;
+    background-color: #99ccff; /* Sky blue */
+    color: #00334d; /* Darker blue for contrast */
     text-align: center;
     padding: 20px 0;
 }
@@ -23,6 +22,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header p {
@@ -36,27 +36,23 @@ nav ul {
     justify-content: center;
     gap: 15px;
     padding: 10px 0;
-    background-color: #ffa500; /* Orange */
-}
-
-nav ul li {
-    margin: 0;
+    background-color: #0066cc; /* Bold blue for nav bar */
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #ffdab9; /* Lighter orange for hover effect */
+    background-color: #00b386; /* Pop of green for hover */
 }
 
-/* Main Content */
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -67,90 +63,81 @@ main {
 }
 
 h2 {
-    color: #ffa500; /* Orange */
+    color: #0066cc; /* Main blue for headings */
     margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .caption {
     font-style: italic;
-    color: #555;
-    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #00334d; /* Darker blue for subtle text */
     text-align: center;
 }
 
-/* Images */
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-/* Form Styles */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #ffa500; /* Orange button */
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-form button:hover {
-    background-color: #ff7f50; /* Coral */
-}
-
-/* Footer */
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #98fb98; /* Mint green */
-    color: #333;
+    background-color: #00b386; /* Pop of green */
+    color: white;
     margin-top: 20px;
 }
 
 footer a {
-    color: #ffa500; /* Orange */
+    color: #ff6600; /* Orange for footer links */
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
+button {
+    background-color: #0066cc; /* Main blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+button:hover {
+    background-color: #00b386; /* Green on hover */
+}
+
+input, textarea {
+    border: 1px solid #00334d; /* Darker blue for form borders */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
     nav ul {
         flex-direction: column;
+        gap: 10px;
     }
 
     main {
         padding: 15px;
     }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
+
