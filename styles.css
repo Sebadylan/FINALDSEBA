@@ -4,19 +4,17 @@ body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     box-sizing: border-box;
 }
 
-/* Body and Global Styling */
 body {
-    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
-    color: #00334d; /* Dark blue for text */
-    background-color: #e6f7ff; /* Light blue background */
+    font-family: 'Courier New', Courier, monospace; 
+    color: #00334d; 
+    background-color: #e6f7ff;
     line-height: 1.6;
     padding: 0 10px;
 }
 
-/* Header */
 header {
-    background-color: #99ccff; /* Sky blue */
-    color: #002d40; /* Darker blue for contrast */
+    background-color: #99ccff; 
+    color: #002d40;
     text-align: center;
     padding: 20px 0;
 }
@@ -32,14 +30,13 @@ header p {
     margin-bottom: 0;
 }
 
-/* Navigation Bar */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 15px;
     padding: 10px 0;
-    background-color: #0066cc; /* Bold blue for nav bar */
+    background-color: #0066cc;
 }
 
 nav ul li a {
@@ -53,10 +50,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #f9c5d5; /* Pastel pink hover effect */
+    background-color: #f9c5d5;
 }
 
-/* Main Content */
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -67,7 +63,7 @@ main {
 }
 
 h2 {
-    color: #0066cc; /* Main blue for headings */
+    color: #0066cc;
     margin-bottom: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -77,36 +73,33 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Image Styling */
 img {
-    display: block; /* Centers the image */
-    max-width: 100%; /* Ensures it doesn't overflow */
-    height: auto; /* Keeps the aspect ratio intact */
-    margin: 20px auto; /* Adds spacing and centers */
-    border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Image Captions */
 .caption {
     font-style: italic;
     font-size: 0.9rem;
-    color: #00334d; /* Darker blue for subtle text */
+    color: #00334d;
     text-align: center;
-    margin-top: -10px; /* Pulls it closer to the image */
+    margin-top: -10px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #f9c5d5; /* Pastel pink */
-    color: #663399; /* Lavender text color */
+    background-color: #f9c5d5;
+    color: #663399;
     margin-top: 20px;
 }
 
 footer a {
-    color: #663399; /* Lavender for footer links */
+    color: #663399;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -115,9 +108,8 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Buttons and Forms */
 button {
-    background-color: #663399; /* Lavender button */
+    background-color: #663399;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -128,11 +120,11 @@ button {
 }
 
 button:hover {
-    background-color: #f9c5d5; /* Pastel pink on hover */
+    background-color: #f9c5d5;
 }
 
 input, textarea {
-    border: 1px solid #00334d; /* Darker blue for form borders */
+    border: 1px solid #00334d;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
@@ -140,7 +132,6 @@ input, textarea {
     margin-bottom: 15px;
 }
 
-/* Portfolio Grid */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -153,7 +144,7 @@ input, textarea {
     border-radius: 10px;
     box-shadow:
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
